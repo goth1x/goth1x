@@ -1,0 +1,1 @@
+Script: Clean folder. Orginize your folder 'garbage' by file types. Normalize filenames and delete empty folders : <b>Maksym Y</b>
