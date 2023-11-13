@@ -21,7 +21,8 @@ def add(command):
 
 
 def goodbye():
-    return 'Goodbye!'
+    print('Goodbye!')
+    return
 
 
 @input_error
