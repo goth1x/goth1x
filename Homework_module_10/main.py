@@ -16,8 +16,9 @@ class Phone(Field):
             self.value = phone
         else:
             raise ValueError("Number must be 10 digits length")
-
-    def validate(self, phone):
+        
+    @staticmethod
+    def validate(phone):
         return len(phone) == 10 and phone.isdigit()
 
 
